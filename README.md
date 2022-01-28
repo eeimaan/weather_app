@@ -4,10 +4,12 @@ An example Flutter weather app using the OpenWeatherMap API.
 
 
 Packages in use
-[riverpod](https://pub.dev/packages/riverpod) for state management
-[freezed](https://pub.dev/packages/freezed) for code generation
+[riverpod](https://pub.dev/packages/riverpod) for state management<br/>
+[freezed](https://pub.dev/packages/freezed) for code generation<br/>
 [http](https://pub.dev/packages/http) for talking to the REST API
+
 [cached_network_image](https://pub.dev/packages/cached_network_image) for caching images
+
 [mocktail](https://pub.dev/packages/mocktail) for testing
 
 Note: to use the API you'll need to register an account on [OpenWeatherMap](https://openweathermap.org/api) and obtain your own API key. This can be set inside lib/src/api/api_keys.dart.
